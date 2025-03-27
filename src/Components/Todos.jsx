@@ -7,7 +7,7 @@ function Todos() {
 
   return (
     <>
-      <ul className="list-none lg:w-[50%] w-full mx-auto">
+      <ul className="list-none max-w-3xl mx-auto">
         {todos.map((todo) => (
           <li
             className="py-2 mt-1 px-4 border border-sky-800 flex items-center justify-between bg-sky-800 rounded-none text-white shadow-none w-full"
